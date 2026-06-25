@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="digit_title">手写数字识别</string>
+    <string name="digit_tip">请书写 0 到 9 中的一个数字</string>
+    <string name="digit_recognize">识别</string>
+    <string name="digit_clear">清空</string>
+    <string name="digit_empty_canvas">请先书写数字</string>
+    <string name="digit_model_loading_failed">数字识别模型加载失败</string>
+    <string name="digit_result_placeholder">识别结果将在这里显示。</string>
+    <string name="digit_result_title">识别结果</string>
+    <string name="digit_model_fallback">MindSpore Lite 模型不可用，当前展示本地兜底结果。</string>
+    <string name="digit_help">在黑色画板中书写单个数字，点击识别后执行本地推理。</string>
+</resources>

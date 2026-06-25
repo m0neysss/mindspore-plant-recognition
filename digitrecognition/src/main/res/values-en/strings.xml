@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="digit_title">Handwritten Digit</string>
+    <string name="digit_tip">Write a digit from 0 to 9</string>
+    <string name="digit_recognize">Recognize</string>
+    <string name="digit_clear">Clear</string>
+    <string name="digit_empty_canvas">Please write a digit first</string>
+    <string name="digit_model_loading_failed">Digit model failed to load</string>
+    <string name="digit_result_placeholder">Result will appear here.</string>
+    <string name="digit_result_title">Result</string>
+    <string name="digit_model_fallback">MindSpore Lite model is unavailable. Showing local fallback result.</string>
+    <string name="digit_help">Draw a single digit in the black canvas and tap Recognize to run local inference.</string>
+</resources>

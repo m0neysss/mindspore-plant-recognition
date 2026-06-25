@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="flower_title">花卉识别</string>
+    <string name="flower_model_loading">正在后台加载花卉识别模型…</string>
+    <string name="flower_model_ready">模型已就绪 · Runtime %1$s · 加载 %2$d ms</string>
+    <string name="flower_model_failed">模型加载失败 · Runtime %1$s</string>
+    <string name="flower_scope_notice">仅支持模型内置的 16 种花卉；低置信度结果仅作提示。</string>
+    <string name="flower_retry_model">重试加载</string>
+    <string name="flower_preview_description">待识别花卉图片预览</string>
+    <string name="flower_choose_gallery">选择图片</string>
+    <string name="flower_take_photo">拍照</string>
+    <string name="flower_start_recognition">开始识别</string>
+    <string name="flower_top_three">Top-3 识别结果</string>
+    <string name="flower_result_placeholder">请选择或拍摄一张花卉图片。</string>
+    <string name="flower_inferencing">正在识别…</string>
+    <string name="flower_timing">预处理 %1$d ms · 推理 %2$d ms · 概率和 %3$.6f</string>
+    <string name="flower_unreliable">无法可靠识别，请确保花朵主体清晰、光线充足，并重新拍摄。</string>
+    <string name="flower_select_first">请先选择或拍摄一张图片。</string>
+    <string name="flower_model_not_ready">模型尚未加载成功，请先重试加载。</string>
+    <string name="flower_empty_uri">相册或相机没有返回有效图片。</string>
+    <string name="flower_no_camera">未找到可用的相机应用。</string>
+    <string name="flower_camera_failed">无法启动相机：%1$s</string>
+    <string name="flower_camera_permission_denied">未授予相机权限。</string>
+    <string name="flower_unknown_error">发生未知错误。</string>
+</resources>

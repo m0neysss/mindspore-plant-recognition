@@ -89,5 +89,7 @@ dependencies {
     implementation project(':hms')
     implementation project(':dance')
     implementation project(':custommodel')
+    implementation project(':digitrecognition')
+    implementation project(':flowerrecognition')
 
 }

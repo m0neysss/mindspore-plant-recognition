@@ -101,7 +101,6 @@ if (file("src/main/assets/model/ssd.ms").exists()) {
 }
 
 if (file("../mindsporelibrary/mindspore/mindspore-lite/1.1.0/mindspore-lite-1.1.0.aar").exists()) {
-    downloadMindSporeLibrary.enabled = false
     unzipMindSporeIncludeAAR.enabled = false
     cleanUnusedmindsporeAARFiles.enabled = false
 }

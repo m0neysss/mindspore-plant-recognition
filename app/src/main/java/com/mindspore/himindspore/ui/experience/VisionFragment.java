@@ -71,6 +71,8 @@ public class VisionFragment extends Fragment implements View.OnClickListener {
         view.findViewById(R.id.btn_object_camera).setOnClickListener(this);  //onClickCameraDetection
         view.findViewById(R.id.btn_posenet).setOnClickListener(this);  //onClickPoseNet
         view.findViewById(R.id.btn_style_transfer).setOnClickListener(this);  //onClickStyleTransfer
+        view.findViewById(R.id.btn_digit_recognition).setOnClickListener(this);  //onClickDigitRecognition
+        view.findViewById(R.id.btn_flower_recognition).setOnClickListener(this);
         view.findViewById(R.id.btn_segmentation).setOnClickListener(this);  //onClickSegmentation
         view.findViewById(R.id.btn_image).setOnClickListener(this);  //onClickImage
         view.findViewById(R.id.btn_dance).setOnClickListener(this);  //onClickSceneDetection
@@ -108,6 +110,12 @@ public class VisionFragment extends Fragment implements View.OnClickListener {
                 break;
             case R.id.btn_style_transfer:
                 ARouter.getInstance().build("/styletransfer/StyleMainActivity").navigation();
+                break;
+            case R.id.btn_digit_recognition:
+                ARouter.getInstance().build("/digitrecognition/DigitRecognitionActivity").navigation();
+                break;
+            case R.id.btn_flower_recognition:
+                ARouter.getInstance().build("/flowerrecognition/FlowerRecognitionActivity").navigation();
                 break;
             case R.id.btn_segmentation:
                 ARouter.getInstance().build("/hms/ImageSegmentationLiveAnalyseActivity").navigation();

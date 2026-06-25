@@ -16,6 +16,7 @@
 
 #include <android/log.h>
 #include <algorithm>
+#include <cmath>
 #include "ssd_util/ssd_util.h"
 
 #define MS_PRINT(format, ...) __android_log_print(ANDROID_LOG_INFO, "MSJNI", format, ##__VA_ARGS__)

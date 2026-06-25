@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="digit_bg">#F5F7FA</color>
+    <color name="digit_panel_bg">#FFFFFF</color>
+    <color name="digit_text_primary">#1F2329</color>
+    <color name="digit_text_secondary">#6B7280</color>
+    <color name="digit_button_blue">#2F7DF6</color>
+    <color name="digit_button_gray">#E8EDF5</color>
+    <color name="digit_canvas_bg">#050505</color>
+    <color name="digit_canvas_stroke">#FFFFFF</color>
+</resources>
